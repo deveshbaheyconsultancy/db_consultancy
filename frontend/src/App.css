@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+:root {
+  --primary-color: #122126;
+  --primary-500: #1E3A3F;
+  --navbar-color: #FAFBFC;
+  --secondary-color: #64748B;
+  --blue-600: #1447E6;
+  --blue-500: #155DFC;
+  --blue-400: #2B7FFF;
+  --blue-300: #00B8DB;
+  --blue-200: #BEDBFF;
+  --green-600: #007A55;
+  --green-500: #009966;
+  --green-400: #00BC7D;
+  --green-300: #00BBA7;
+  --green-200: #A4F4CF;
+  --org-600: #BB4D00;
+  --org-500: #E17100;
+  --org-400: #FE9A00;
+  --org-300: #FF6900;
+  --org-200: #FEE685;
+  --parpal-500: #9810FA;
+  --parpal-400: #AD46FF;
+  --parpal-300: #F6339A;
+  --btn-footer-500: #00BBA7;
+  --btn-footer-400: #00BC7D;
+  --btn-linier: linear-gradient(to right, var(--primary-color) 0%, var(--primary-500) 100%);
+  --blue-linier: linear-gradient(130deg, var(--blue-400) 0%, var(--blue-500) 100%);
+  --green-linier: linear-gradient(130deg, var(--green-400) 0%, var(--green-500) 100%);
+  --org-linier: linear-gradient(130deg, var(--org-400) 0%, var(--org-500) 100%);
+  --parpal-linier: linear-gradient(130deg, var(--parpal-400) 0%, var(--parpal-500) 100%);
+  --parpal-footer-linier: linear-gradient(to right, var(--btn-footer-400) 0%, var(--btn-footer-500) 100%);
+  --services-blue-linier: linear-gradient(130deg, var(--blue-400) 0%, var(--blue-300) 100%);
+  --services-green-linier: linear-gradient(130deg, var(--green-400) 0%, var(--green-300) 100%);
+  --services-org-linier: linear-gradient(130deg, var(--org-400) 0%, var(--org-300) 100%);
+  --services-perpal-linier: linear-gradient(130deg, var(--parpal-400) 0%, var(--parpal-300) 100%);
+  --text-linier: linear-gradient(to right, var(--parpal-400) 0%, var(--parpal-300) 100%);
+  --our: linear-gradient(130deg, var(--navbar-color) 0%, #F1F5F9 50%, #FAFBFC 100%);
+  --footer-linier: linear-gradient(130deg, var(--primary-color) 0%, var(--primary-color) 50%, var(--primary-color) 100%);
+  --mission-linier: linear-gradient(to bottom, #151419 0%, #000000 100%);
+}
+
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-optical-sizing: auto;
+}
+
+
+.mission {
+  background-image: url("./assets//mission.webp");
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  height: 350px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.vision {
+  background-image: url("./assets//vision.webp");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 350px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.bar::-webkit-scrollbar{
+  display: none;
+}
