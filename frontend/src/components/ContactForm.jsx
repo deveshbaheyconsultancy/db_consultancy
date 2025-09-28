@@ -22,7 +22,7 @@ const ContactForm = ({ close }) => {
     e.preventDefault();
     try {
       const res = await fetch(
-        "http://localhost:8080/api/requirement/send-requirement",
+        "https://baheyconsultancy.in/api/requirement/send-requirement",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },

@@ -22,8 +22,6 @@ coverage/
 # Node modules
 node_modules/
 
-# Environment variables
-.env
 
 # IDE and editor files
 .vscode/
