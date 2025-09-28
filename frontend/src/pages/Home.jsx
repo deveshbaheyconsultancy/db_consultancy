@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import hero from "../assets/hero-section.webp";
+import hero from "../assets/hero_section.webp";
 import { TiFlashOutline } from "react-icons/ti";
 import { FaRegThumbsUp, FaStar, FaArrowRightLong } from "react-icons/fa6";
 import { IoMdCheckmarkCircleOutline, IoIosStarOutline } from "react-icons/io";
@@ -12,7 +12,6 @@ import { GrLineChart } from "react-icons/gr";
 import { AiOutlineSecurityScan } from "react-icons/ai";
 import OurServices from "../components/OurServices";
 import ContactForm from "../components/ContactForm";
-import mission from "../assets/mission.webp";
 import mission_icon from "../assets/mission-icon.webp";
 import vision_icon from "../assets/vision-icon.webp";
 const Home = () => {

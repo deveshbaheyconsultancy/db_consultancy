@@ -19,7 +19,7 @@ const Career = () => {
     e.preventDefault();
     try {
       const res = await fetch(
-        "http://localhost:8080/api/contact/send-contact",
+        "https://baheyconsultancy.in/api/contact/send-contact",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
