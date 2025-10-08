@@ -1,28 +1,25 @@
 import express from "express";
 import cors from "cors";
-// Import routes
 import contactRoutes from "./routes/contact.routes.js";
 import requirementRoutes from "./routes/requirement.routes.js";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 const app = express();
 
-// ✅ Allow frontend URL
+app.use(express.json());
 app.use(
   cors({
-    // origin: "http://localhost:5173",
-    origin: "https://baheyconsultancy.in",
+    origin: process.env.FRONTEND_URL,
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
 );
-
-// Body parser
-app.use(express.json());
-
-// Use routes
 app.use("/api/contact", contactRoutes);
 app.use("/api/requirement", requirementRoutes);
 
-app.listen(8080, () => {
-  console.log("🚀 Server running on port 8080");
+const PORT = 5000;
+app.listen(PORT, () => {
+  console.log(`🚀 Server running on port ${PORT}`);
 });

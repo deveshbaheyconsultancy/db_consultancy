@@ -33,7 +33,7 @@ const Header = () => {
     <div className="bg-navbar-color sticky top-0 z-50">
       <section className="container mx-auto flex items-center justify-between  px-5 md:px-10 lg:px-20 py-4 border-b border-[#12212606]  ">
         <a href="/" className="flex items-center gap-2 text-lg font-bold">
-          <img src={logo} alt="" /> Bahey Consultancy
+          <img src={logo} alt="bahey_logo" /> Bahey Consultancy
         </a>
         <div className=" items-center gap-4 hidden md:flex">
           <div className="flex items-center gap-4">

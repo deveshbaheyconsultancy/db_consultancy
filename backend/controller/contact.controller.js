@@ -5,7 +5,7 @@ export const sendContact = async (req, res) => {
 
   try {
     await transporter.sendMail({
-      from: process.env.EMAIL_USER, // 👈 sender is always your Gmail
+      from: process.env.EMAIL_USER,
       to: process.env.EMAIL_USER,
       replyTo: email,
       subject: "New Contact Form Submission",
